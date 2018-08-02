@@ -34,39 +34,38 @@ namespace CG3_4
             Console.WriteLine("Enter the second number: ");
             secondNumber = int.Parse(Console.ReadLine());
 
-            /*From here I am giving the program instructions on what to do with the user input.
-            For some reason the closing curly bracket on the first four statements are throwing a code, but not the last. */ 
-            if (operators == "*") ;
+            //From here I am giving the program instructions on what to do with the user input.
+            if (operators == "*")
             {
                 answer = firstNumber * secondNumber;
                 Console.WriteLine(answer);
             }
-             else if (operators == "/") ;
+            else if (operators == "/") 
             {
                 answer = firstNumber / secondNumber;
                 Console.WriteLine(answer);
             }
-             else if (operators == "+") ;
+            else if (operators == "+")
             {
                 answer = firstNumber + secondNumber;
-                Console.WriteLine(answer);               
+                Console.WriteLine(answer);
             }
-             
-            else if (operators == "-") ;
+
+            else if (operators == "-")
             {
                 answer = firstNumber - secondNumber;
                 Console.WriteLine(answer);
             }
-            
-        
-            else if (operators == "%") ;
+
+
+            else if (operators == "%")
             {
                 answer = firstNumber % secondNumber;
                 Console.WriteLine(answer);
             }
             Console.ReadLine();
 
-            
+
 
 
 
